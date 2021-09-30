@@ -22,7 +22,7 @@
       <bpmn:incoming>Flow_1endfqu</bpmn:incoming>
       <bpmn:outgoing>Flow_0byan59</bpmn:outgoing>
     </bpmn:serviceTask>
-    <bpmn:serviceTask id="retrieve-coffee-order" name="Retrieve Coffee Order" camunda:class="com.javanibble.camunda.examples.RetrieveCoffeeOrderDelegate">
+    <bpmn:serviceTask id="retrieve-coffee-order" name="Retrieve Coffee Order" camunda:class="com.hendisantika.workflow.service.RetrieveCoffeeOrderDelegate">
       <bpmn:incoming>Flow_00iop9r</bpmn:incoming>
       <bpmn:outgoing>Flow_17tr72j</bpmn:outgoing>
     </bpmn:serviceTask>
