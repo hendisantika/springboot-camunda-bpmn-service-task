@@ -1,6 +1,5 @@
 package com.hendisantika.workflow.service;
 
-import camundajar.impl.scala.util.control.Exception;
 import org.camunda.bpm.engine.delegate.DelegateExecution;
 import org.camunda.bpm.engine.delegate.JavaDelegate;
 import org.slf4j.Logger;
